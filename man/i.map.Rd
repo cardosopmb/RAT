@@ -7,8 +7,9 @@
 i.map(
   id,
   homeCountry = NULL,
+  ext = c(-180, 180, -90, 90),
   sea.col = "black",
-  country.col = "grey50",
+  country.col = "grey",
   country.border.col = "black",
   country.border.tick = 0.3,
   line.curvature = 0.1,
@@ -30,6 +31,8 @@ i.map(
 \item{id}{A list obtained with function 'wos'.}
 
 \item{homeCountry}{A character string specifying the country of origin of the researcher. Look at map$country for the complete list. If NULL, the country with most hits in Web of Science is used.}
+
+\item{ext}{extent of the bounding box of the map in decimal degrees (minX, maxX, minY, maxY).}
 
 \item{sea.col}{A character indicating the color of the sea.}
 
@@ -75,8 +78,6 @@ Generates a network of international collaboration.
 The network connects the researcher with all their collaborators.
 }
 \examples{
- \dontrun{
-id = wos("A-8820-2008")
+id = wos("C-2482-2012")
 i.map(id, country.size.proportional = TRUE)
-}
 }

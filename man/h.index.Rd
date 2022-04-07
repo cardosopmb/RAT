@@ -21,10 +21,9 @@ Calculates the h-index based on Web of Science data.
 The h-index is a measure of scientific output calculated as the h number of papers with more than h citations (Hirsch, 2005).
 }
 \examples{
-\dontrun{
-id = wos("A-8820-2008")
+id = wos("C-2482-2012")
 h.index(id)
-}
+h.index(id, TRUE)
 }
 \references{
 Hirsch, J.E. (2005). An index to quantify an individual's scientific research output. PNAS, 102: 16569–16572. doi:10.1073/pnas.0507655102.
