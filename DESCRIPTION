@@ -1,13 +1,13 @@
 Package: RAT
 Title: Research Assessment Tools
-Version: 0.1.0
-Date: 2021-10-28
+Version: 0.2.0
+Date: 2022-04-05
 Authors@R: c(
     person("Pedro", "Cardoso", email = "pedro.cardoso@helsinki.fi", role = c("aut", "cre")),
     person("Stefano", "Mammola", role = c("aut")))
-Description: Includes algorithms to assess research productivity and patterns, such as the h-index and i-index. Cardoso et al. (2021) in prep.
+Description: Includes algorithms to assess research productivity and patterns, such as the h-index and i-index. Cardoso et al. (subm.) Quantifying the international collaboration of researchers and research institutions.
 Depends: R (>= 3.5.0)
-Imports: ggplot2, graphics, stats, utils, wosr
+Imports: ggplot2, graphics, mapproj, stats, utils, wosr
 Encoding: UTF-8
 License: GPL-3
 LazyData: true

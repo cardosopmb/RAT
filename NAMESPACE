@@ -2,9 +2,12 @@
 
 export(h.index)
 export(i.index)
+export(i.map)
+export(r.index)
 export(wos)
 import(ggplot2)
 import(graphics)
+import(mapproj)
 import(stats)
 import(utils)
 importFrom(wosr,auth)
